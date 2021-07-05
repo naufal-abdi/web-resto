@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta http-equiv="Cache-Control: max-age=3600">
+    <meta name="description" content="Finding Best Food from Many Restaurant">
+    <link rel="preload" href="//fonts.googleapis.com">
+    <link rel="shortcut icon" href="./icons/logo-16x16.png" type="image/pn
+    g" crossorigin="anonymous">
+    <link rel="apple-touch-icon" href="/icons/logo-192x192.png" crossorigin="anonymous">
+    <meta name="theme-color" content="#31326f"/>
+    <title>Finding Food</title>
+    <link rel="manifest" href="manifest.json">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />    
+</head>
+<body>
+  <a href="#maincontent" class="skip-link">Skip To Content</a>
+  <header class="app-bar">
+    <div class="container">
+      <div class="brand">
+        <img src="./icons/logo-35x35.png" alt="logo finding food" crossorigin="anonymous">
+        <h1>Finding Food</h1>
+      </div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#/home">Home</a></li>
+        <li class="nav-item"><a href="#/favorite">Favorite</a></li>
+        <li class="nav-item"><a href="https://github.com/naufal-abdi" target="_blank" rel="noreferrer">About Us</a></li>
+      </ul>
+      <button aria-label="Navigation Button" id="menu" class="header-menu">☰</button>
+    </div>
+  </header>
+
+  <nav class="nav" id="drawer">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#/home">Home</a></li>
+      <li class="nav-item"><a href="#/favorite">Favorite</a></li>
+      <li class="nav-item"><a href="https://github.com/naufal-abdi" target="_blank" rel="noreferrer">About Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-inner">
+
+      <picture>
+        <source type="image/webp" media="(min-width: 600px)" srcset="./images/hero-image-4-small.webp">
+        <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/hero-image-4-small.jpg">
+        <img 
+          src="./images/hero-image-4-large.jpg" 
+          alt="Gambar salah satu menu makanan di dalam piring">
+      </picture>
+
+    </div>
+    <div class="hero-text">
+      <h1 class="hero-title">Cari Makanan <br/> Sesuai Seleramu!</h1>
+      <p class="hero-tagline">Pilih menu yang anda sukai pada restoran - restoran terbaik kami</p>
+    </div>
+  </div>
+
+  <div class="loader active" id="loader">
+    <div>
+      <svg version="1.1" id="L6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+        <rect fill="#ffc93cc7" stroke="#ffc93cc7" stroke-width="4" x="25" y="25" width="50" height="50">
+        <animateTransform
+          attributeName="transform"
+          dur="0.5s"
+          from="0 50 50"
+          to="180 50 50"
+          type="rotate"
+          id="strokeBox"
+          attributeType="XML"
+          begin="rectBox.end"/>
+        </rect>
+        <rect x="27" y="27" fill="#31326f" width="46" height="50">
+        <animate
+          attributeName="height"
+          dur="1.3s"
+          attributeType="XML"
+          from="50" 
+          to="0"
+          id="rectBox" 
+          fill="freeze"
+          begin="0s;strokeBox.end"/>
+        </rect>
+      </svg>
+    </div>
+  </div>
+
+  <main id="maincontent">
+    
+  </main>
+
+  
+
+  <footer>
+    <p>Copyright &copy; 2021 - <b>Finding Food</b> <br/>Made with ❤️ By Naufal Abdi</p>
+  </footer>  
+</body>
+</html>

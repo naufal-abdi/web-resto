@@ -1,0 +1,15 @@
+Latihan terakhir 
+
+25 Juni 2021 9:08
+https://www.dicoding.com/academies/219/tutorials/9864?from=9859
+
+
+25 Juni 2021 22:30
+1. Pembuatan fitur integration test
+
+
+
+
+
+Kriteria submission yang sudah terpenuhi
+1. Penerapan Integration testing pada kasus menyukai dan batal menyukai resto

@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        // mengatasi error require html-webpack-plugin
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+
+        // menghilangkan error untuk penamaan function yang mengandung _
+        "no-underscore-dangle": "off",
+        "no-undef": 0,
+        "no-console": 0,
+        "no-restricted-globals": ["error", "event", "fdescribe"],
+        "no-unused-vars": 0,
+        "linebreak-style": 0
+    },
+    "plugins": ["jasmine", "codeceptjs"]
+
+}
