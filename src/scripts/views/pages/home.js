@@ -14,7 +14,7 @@ const Home = {
       <h1 class="promo-label">Promo</h1>
       <div class="promo-thumbs">
         <div class="promo-thumb">
-          <h3>Discount Utama</h3>          
+          <h2>Discount Utama</h2>          
           <picture>
             <source type="image/webp" srcset="./icons/discount-tag.webp">
             <img width="150" height="150" src="./icons/discount-tag.png" alt="Gambar Discount" crossorigin="anonymous">
@@ -23,7 +23,7 @@ const Home = {
           <p>Discount <b>20%</b> jika anda melakukan transaksi di atas <b>Rp 400.000</b></p>
         </div>
         <div class="promo-thumb">
-          <h3>Discount Tambahan</h3>
+          <h2>Discount Tambahan</h2>
           <picture>
             <source type="image/webp" srcset="./icons/vip-card.webp">
             <img width="150" height="150" src="./icons/vip-card.png" alt="Gambar Kartu Member" crossorigin="anonymous">

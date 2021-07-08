@@ -54,7 +54,7 @@ const createUnlikeRestoButtonTemplate = () => `
 `;
 
 const createRestoDetailTemplate = (restaurant) => `    
-    <h2>${restaurant.name}</h2>
+    <h1>${restaurant.name}</h1>
     <hr>
     <div class="resto-detail-img">
       <img 
@@ -83,7 +83,7 @@ const createRestoDetailTemplate = (restaurant) => `
 
 const createCustomerReviewsTemplate = (review) => `
   <div class="reviews-detail">
-    <h3 class="reviewer">${review.name}</h3>
+    <h2 class="reviewer">${review.name}</h2>
     <p class="review-date"><span><i class="fas fa-calendar-alt"></i> ${review.date}</span></p>
     <p class="review-text">${review.review}</p>
   </div>
@@ -92,7 +92,7 @@ const createCustomerReviewsTemplate = (review) => `
 const createFailRequestTemplate = () => `
   <div class="fail-box">
     <p class="empty-icon"><i class="fas fa-exclamation-triangle"></i></p>
-    <h3 class="empty-title">Terjadi Kesalahan Saat Mencoba Me-<b>request</b> Data dari <b>API</b></h3>
+    <h2 class="empty-title">Terjadi Kesalahan Saat Mencoba Me-<b>request</b> Data dari <b>API</b></h2>
     <hr>
   </div>
 `;
@@ -100,7 +100,7 @@ const createFailRequestTemplate = () => `
 const createEmptyItemTemplate = () => `
   <div class="empty-box">
     <p class="empty-icon"><i class="fas fa-heart-broken"></i></p>
-    <h3 class="empty-title">Oopss.. Belum Ada Item yang Disukai</h3>
+    <h2 class="empty-title">Oopss.. Belum Ada Item yang Disukai</h2>
     <hr>
   </div>
 `;

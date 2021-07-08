@@ -15,6 +15,9 @@
         // mengatasi error require html-webpack-plugin
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
 
+        //mengatasi error prefer default export
+        "import/prefer-default-export": "off",
+
         // menghilangkan error untuk penamaan function yang mengandung _
         "no-underscore-dangle": "off",
         "no-undef": 0,

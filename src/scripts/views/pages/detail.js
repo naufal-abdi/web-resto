@@ -16,7 +16,7 @@ const Detail = {
 
     </article>   
     <div class="customer-reviews">
-      <h2>Komentar</h2>
+      <h1>Komentar</h1>
       <form class="review-form" id="reviewForm" enctype="multipart/form-data">
         <div class="form-group">
           <label for="nama">Nama</label>

@@ -7,4 +7,4 @@ const createLikeButtonPresenterWithResto = async (resto) => {
   });
 };
 
-export default createLikeButtonPresenterWithResto;
+export { createLikeButtonPresenterWithResto };
