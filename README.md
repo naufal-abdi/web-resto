@@ -1,4 +1,7 @@
 # Deskripsi
+
+Deploy on [![Netlify Status](https://api.netlify.com/api/v1/badges/b9dd3203-ddfa-41bd-b11a-b8d07678842b/deploy-status)](https://app.netlify.com/sites/infallible-ritchie-269156/deploys)
+
 Web Restaurant ini merupakan project submission dicoding untuk penyelesaian kelas Front End Developer Expert.
 
 
